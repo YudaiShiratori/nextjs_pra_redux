@@ -2,17 +2,17 @@ import Head from "next/head";
 import Header from "./components/Header";
 import style from "../style/index.less";
 
-export default function Home() {
+export default function Todo() {
   return (
     <div className="container">
       <Head>
-        <title>My Cool App</title>
+        <title>My Todos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <div className={style.main}>
-          <h1 className="title">Welcome to My App</h1>
+          <h1 className="title">Cool Stuff todo Today</h1>
           <Header />
         </div>
       </main>

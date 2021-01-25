@@ -2,17 +2,17 @@ import Head from "next/head";
 import Header from "./components/Header";
 import style from "../style/index.less";
 
-export default function Home() {
+export default function Weather() {
   return (
     <div className="container">
       <Head>
-        <title>My Cool App</title>
+        <title>The Weather</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <div className={style.main}>
-          <h1 className="title">Welcome to My App</h1>
+          <h1 className="title">Today is Looking Good</h1>
           <Header />
         </div>
       </main>
